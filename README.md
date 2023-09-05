@@ -1,5 +1,5 @@
 # Art Print Shop Website
-    This is a web application for selling art prints. It provides features for users to browse and purchase art prints, create accounts, log in, and upload new products as an admin. The project is built using React.js for the frontend and Firebase for backend services like authentication and storage.
+- This is a web application for selling art prints. It provides features for users to browse and purchase art prints, create accounts, log in, and upload new products as an admin. The project is built using React.js for the frontend and Firebase for backend services like authentication and storage.
 
 ## Features
 

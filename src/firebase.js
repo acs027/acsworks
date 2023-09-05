@@ -12,13 +12,12 @@ import { getDatabase } from "firebase/database"
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "acsworks-1e032.firebaseapp.com",
-  databaseURL: "https://acsworks-1e032-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "acsworks-1e032",
-  storageBucket: "acsworks-1e032.appspot.com",
-  messagingSenderId: "136309330704",
-  appId: "1:136309330704:web:dbe3bec3d41ebeab248b95",
-  measurementId: "G-H9LQDPHKCT"
+  authDomain: "acsworks2.firebaseapp.com",
+  databaseURL: "https://acsworks2-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "acsworks2",
+  storageBucket: "acsworks2.appspot.com",
+  messagingSenderId: "55576102916",
+  appId: "1:55576102916:web:86dbdb515e0c83c8d6cd51"
 };
 
 // Initialize Firebase
