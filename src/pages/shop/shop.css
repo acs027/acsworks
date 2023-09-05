@@ -1,0 +1,125 @@
+
+
+.loading {
+  position: fixed;
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #000000;
+  width: 200px;
+  height: 200px;
+  animation: spinner 4s linear infinite;
+  overflow: show;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.shop{
+  text-align: center;
+}
+
+.shopTitle {
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  outline: 0;
+  padding: 0;
+  background: transparent;
+  font-family: barlow-medium, barlow, sans-serif;
+}
+.products {
+  width: 80%;
+  height: auto;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.product img {
+  width: 305px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  overflow: hidden;
+}
+
+.product-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product .description {
+  text-align: left;
+  
+}
+
+.productName {
+  font-weight: 500;
+}
+
+
+.product .description p {
+  height: 20px;
+  margin: 0;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  border: none;
+  background-color: transparent;
+  /* border: 2px solid rgb(19, 19, 19); */
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* border-radius: 15px; */
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.prod-cart {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cart-amount {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}

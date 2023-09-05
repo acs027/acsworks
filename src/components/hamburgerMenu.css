@@ -1,0 +1,223 @@
+
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: -403px;
+  width: 400px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  transition: right 0.3s ease;
+  border-left: 3px solid black;
+}
+
+.hamburger-menu.open {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  position: fixed;
+  margin: 0;
+}
+
+.back-icon {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.back-icon:hover {
+  cursor: pointer;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.menu-items {
+  list-style: none;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.menu-items li {
+  margin: 15px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sign-in-container {
+    text-align: center;
+}
+
+.sign-in-container input {
+  border:none;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.sign-in-container button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sign-in-container button:hover {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-up-container {
+    text-align: center;
+}
+
+.sign-up-container input {
+  border:none;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.sign-up-container button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sign-up-container button:hover {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    width: 80%;
+}
+
+.toggleSign button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 15px;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+    align-items: right;
+}
+
+.signwithgoogle button {
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.signwithgoogle button:hover {
+  background-color: black;
+  color: white;
+}
+
+.uploadProduct {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.uploadProduct input {
+  border:none;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.uploadProduct input[type="file"] {
+  /* display: none; */
+  cursor: pointer;
+}
+
+.uploadProduct button {
+  border:none;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.uploadProduct button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* .fileUpload {
+  display: inline-block;
+  height: 25px;
+  width: 320px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+} */
+
+.userPP {
+  height: 80px;
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.userPP img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.signOutBttn {
+  border: none;
+  position: fixed;
+  bottom:50px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.signOutBttn:hover {
+  border: none;
+  position: fixed;
+  bottom:50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+
+
