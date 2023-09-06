@@ -38,3 +38,11 @@
     padding-bottom: 5px;
     border-radius: 15px;
   }
+
+
+  @media screen and (max-width: 800px) {
+    .productDetails-container {
+      width: 70vw;
+      height: 70vh;
+    }
+  }
