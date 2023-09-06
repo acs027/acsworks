@@ -219,5 +219,12 @@ input {
 }
 
 
+@media screen and (max-width: 600px) {
+  .hamburger-menu {
+    width: 100vw;
+    right: calc(-100vw - 3px)
+  }
+}
+
 
 

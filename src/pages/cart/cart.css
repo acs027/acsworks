@@ -15,7 +15,7 @@
 
 
 .cartItem {
-  width: 700px;
+  width: 600px;
   height: 250px;
   display: flex;
 
@@ -50,6 +50,10 @@
   font-weight: bolder;
 }
 
+.checkout {
+  text-align: center;
+}
+
 .checkout button {
   width: 150px;
   height: 50px;
@@ -72,4 +76,45 @@
   cursor: pointer;
 }
 
+
+@media screen and (max-width: 600px) {
+  .cart {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+
+  .cartItem {
+    width: 90%;
+    height: 100px;
+  }
+
+
+  .productImg-container {
+    padding: 25px;
+  }
+
+
+  .description p {
+    font-size: 12px;
+  }
+
+  .countHandler {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .countHandler input {
+    width: 15px;
+
+  }
+
+  .countHandler button {
+    width: 25px;
+   
+  }
+
+
+}
 

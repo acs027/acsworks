@@ -2,7 +2,6 @@ import React, {useState, useContext, useEffect } from 'react';
 import { Product } from './product';
 import "./shop.css";
 import { ShopContext } from '../../context/shop-context';
-import { set } from 'firebase/database';
 
 
 export const Shop = ({isLoading, updateLoading}) => {

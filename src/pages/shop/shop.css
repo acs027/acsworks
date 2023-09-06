@@ -48,6 +48,7 @@
   place-items: center;
   margin-left: auto;
   margin-right: auto;
+  min-height: calc(100vh - 210px);
 }
 
 .product {
@@ -55,6 +56,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  padding: 15px;
 }
 
 .product img {
@@ -122,4 +124,14 @@
   align-items: center;
   margin: auto;
   justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
