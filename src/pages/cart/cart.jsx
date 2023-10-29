@@ -12,6 +12,7 @@ export const Cart = () => {
     const totalAmount = getTotalCartAmount()
 
     const navigate = useNavigate()
+    
   return (
     <div className='cart'>
         
@@ -38,11 +39,8 @@ export const Cart = () => {
                 Checkout
             </button>
             </div>
-
         </div>
-        </div>
-            
-            
+        </div>      
         : <div className='emptyCart-container'> 
         <h1> Your cart is empty </h1>
         </div> 

@@ -1,14 +1,14 @@
-import React, {useState, useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Product } from './product';
 import "./shop.css";
 import { ShopContext } from '../../context/shop-context';
 
 
-export const Shop = ({isLoading, updateLoading}) => {
+export const Shop = ({ isLoading, updateLoading }) => {
 
-  const { productList} = useContext(ShopContext)
+  const { productList } = useContext(ShopContext)
 
-  const [ products, setProducts] = useState(null)
+  const [products, setProducts] = useState(null)
 
 
   useEffect(() => {
@@ -22,21 +22,24 @@ export const Shop = ({isLoading, updateLoading}) => {
       }, 1000);
     }
   }, [productList])
-  
-  if(isLoading === true) {
-    return (<div className='loading-container'><div className='loading'></div></div>)
-  }
+
+
+
   return (
-    <div className='shop'>
+    isLoading ?
+      (<div className='loading-container'><div className='loading'></div></div>)
+      :
+      (<div className='shop'>
         <div className='shopTitle'>
-            <span> Art Prints </span>
+          <span> Art Prints </span>
         </div>
         <div className='products'>
 
-            {products?.map((product) => (
-                <Product data={product} key={product.id} />
-            ))}
+          {products?.map((product) => (
+            <Product data={product} key={product.id} />
+          ))}
         </div>
-    </div>
+      </div>)
+
   )
 }

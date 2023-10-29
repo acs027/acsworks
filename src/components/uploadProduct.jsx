@@ -51,7 +51,6 @@ export const UploadProduct = () => {
     })
     return (
         <div>
-
             <label className="fileUpload">
             <input
                 type="file"
